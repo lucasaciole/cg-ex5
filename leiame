@@ -1,0 +1,10 @@
+Lucas Aciole - 619680
+
+=== COMO EXECUTAR ===
+
+Rode os seguinte comandos:
+
+gcc -c cg2d.c
+gcc -c cg3d.c
+gcc exercicio5.c -o ex5 cg3d.o cg2d.o bibaux.o -lm -lX11
+./ex5
